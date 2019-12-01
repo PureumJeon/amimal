@@ -15,11 +15,16 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Noto+Sans+KR&display=swap&subset=korean" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="color.js"></script>
 </head>
   <body>
     <h1><a href="index.html">귀여운 동물친구들</a></h1>
     <div id="grid">
       <ol>
+        <input id="night_day" type="button" value="night" onclick="
+        nightDayHandler(this);
+  		  ">
         <li><a href="1.html">고양이</a></li>
         <li><a href="2.html">강아지</a></li>
         <li><a href="3.html">햄스터</a></li>
